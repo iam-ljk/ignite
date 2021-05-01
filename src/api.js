@@ -51,3 +51,6 @@ export const gameDetailsURL = (game_id) => `${base_url}games/${game_id}?key=7630
 
 //GANE SCREENSHOT
 export const gameScreenshotURL = (game_id) => `${base_url}games/${game_id}/screenshots?key=7630710d82b14431b48a4703e5d73d3f`
+
+//SEARCHED A GAME
+export const searchGameURL = (game_name) => `${base_url}games?key=7630710d82b14431b48a4703e5d73d3f&search=${game_name}&page_size=10`;
